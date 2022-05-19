@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.head2{
+    font-weight: 200;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper {
+  width: 100%;
+  height: 300px;
+  margin: 20px auto;
+}
+.append-buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.append-buttons button {
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid #007aff;
+  color: #007aff;
+  text-decoration: none;
+  padding: 4px 10px;
+  border-radius: 4px;
+  margin: 0 10px;
+  font-size: 13px;
+}
+.head4{
+    font-size: 30px;
+    font-weight: 400;
+    color: grey;
+}
+.para3{
+    color: #CCCCCC;
+    font-size: 16px;
+}
+.nine:hover .eight{
+    background-image:linear-gradient(rgba(240, 154, 26, 0.8),rgba(240, 154, 26, 0.8)),url(../images/crs1-215x230.jpg);
+    
+
+}
+.eight{
+    background-image: url(../images/crs1-215x230.jpg);
+    height: 36vh;
+}
+.four:hover .three{
+    background-image:linear-gradient(rgba(240, 154, 26, 0.8),rgba(240, 154, 26, 0.8)),url(../images/crs2-215x230.jpg);
+    
+
+}
+.three{
+    background-image: url(../images/crs2-215x230.jpg);
+    height: 36vh;
+}
+.two:hover .one{
+    background-image:linear-gradient(rgba(240, 154, 26, 0.8),rgba(240, 154, 26, 0.8)),url(../images/crs3-215x230.jpg);
+    
+
+}
+.one{
+    background-image: url(../images/crs3-215x230.jpg);
+    height: 36vh;
+}

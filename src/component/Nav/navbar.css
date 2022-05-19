@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.cont1{
+    background-color: #002B46;
+}
+.extra{
+    margin-left: 13%;
+}
+.li{
+    color: black;
+}
+.li:hover{
+    color: orange;
+}
+ul{
+    font-family:  sans-serif;
+    font-size: 14px;
+}
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  .ccr{
+      background-color: #002B46;
+  }
+  .cr{
+      background-color: orangered;
+  }
+
+  .dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+      pointer-events: none;
+  }
+.cont2{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 3;
+}
+link{
+    text-decoration: none;
+}
+.bss{
+    color: orangered;
+    font-size: 18px;
+}
+.mdd{
+    color: orangered;
+    font-size: 22px;
+}
